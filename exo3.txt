@@ -1,0 +1,35 @@
+#exo 3
+
+mytable= [4,7,15,6]
+tours = 0
+plusgrand=0 
+
+
+while (tours < len(mytable)):
+ tours+=1
+ for i in range(len(mytable)):
+           while (mytable[i]> plusgrand):
+   
+             if (mytable [i] < plusgrand):
+                  print (plusgrand)
+                 
+               
+                 
+                
+ 
+             else:
+                  plusgrand+=1
+
+
+mytable.append (mytable[i]) 
+del (mytable[i])           
+           
+     
+
+
+
+print (mytable)
+            
+   
+print (mytable)
+print (plusgrand)

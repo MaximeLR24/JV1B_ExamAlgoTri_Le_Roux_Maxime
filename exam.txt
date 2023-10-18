@@ -1,0 +1,53 @@
+#exo 1
+mytable= [4,7,15,6]
+
+print(mytable)
+stock = mytable[0]
+mytable[0] = mytable[1]
+mytable[1] = stock
+print (mytable)
+
+#exo2
+
+mytable.append (mytable[2]) 
+del (mytable[2])
+print(mytable)
+
+
+j=0
+#exo 3
+tours = 0
+plusgrand=0 
+
+
+while (tours < len(mytable)):
+ tours+=1
+ for i in range(len(mytable)):
+           while (mytable[i]> plusgrand):
+   
+             if (mytable [i] < plusgrand):
+                  print (plusgrand)
+                 
+               
+                 
+                
+ 
+             else:
+                  plusgrand+=1
+
+
+mytable.append (mytable[i]) 
+del (mytable[i])           
+           
+     
+
+
+
+print (mytable)
+            
+   
+print (mytable)
+print (plusgrand)
+
+
+

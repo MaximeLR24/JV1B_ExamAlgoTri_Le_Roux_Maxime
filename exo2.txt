@@ -1,0 +1,10 @@
+#exo2
+
+mytable= [4,7,15,6]
+
+mytable.append (mytable[2]) 
+del (mytable[2])
+print(mytable)
+
+
+j=0
